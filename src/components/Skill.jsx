@@ -1,8 +1,4 @@
-import React, { useState } from 'react';
-
-const Skill = ({ id, image, text }) => {
-  const [readMore, setReadMore] = useState(false);
-
+const Skill = ({ image, text }) => {
   return (
     <div className='shadow-md shadow-[#0b0b0b] hover:scale-110 duration-500'>
       <img
@@ -34,4 +30,4 @@ const Skill = ({ id, image, text }) => {
   );
 };
 
-export default Tour;
+export default Skill;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Skill from './Skills';
+import Skill from './Skill';
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
