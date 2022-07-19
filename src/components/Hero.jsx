@@ -9,7 +9,7 @@ const Hero = () => {
         <p className='text-[#fafafa] text-xl'>Hello, my name is</p>
         <h1 className='text-[#ff4d5a] font-bold text-4xl sm:text-7xl'>Denim</h1>
         <h2 className='text-4xl sm:text-4xl text-[#fafafa]'>
-          I would like to become a Full Stack Developer
+          I'm a Graduate Computer Science Student
         </h2>
         <p className='text-[#fafafa] py-4 max-w-[700px]'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
