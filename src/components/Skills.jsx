@@ -20,31 +20,14 @@ const Skills = () => {
           <p className='py-6'>Technologies i've worked with</p>
         </div>
 
+        {/* Skills Grid*/}
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
-          <div className='shadow-md shadow-[#0b0b0b] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-            <p className='my-4'>HTML</p>
-          </div>
-          <div className='shadow-md shadow-[#0b0b0b] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto my-4' src={CSS} alt='HTML icon' />
-            <p className='my-4'>CSS</p>
-          </div>
-          <div className='shadow-md shadow-[#0b0b0b] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={JavaScript} alt='HTML icon' />
-            <p className='my-4'>JavaScript</p>
-          </div>
-          <div className='shadow-md shadow-[#0b0b0b] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={ReactLogo} alt='HTML icon' />
-            <p className='my-4'>React JS</p>
-          </div>
-          <div className='shadow-md shadow-[#0b0b0b] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={GitHub} alt='HTML icon' />
-            <p className='my-4'>GitHub</p>
-          </div>
-          <div className='shadow-md shadow-[#0b0b0b] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Tailwind} alt='HTML icon' />
-            <p className='my-4'>Tailwind CSS</p>
-          </div>
+          <Skill image={HTML} text='HTML' />
+          <Skill image={CSS} text='CSS' />
+          <Skill image={JavaScript} text='JavaScript' />
+          <Skill image={ReactLogo} text='React JS' />
+          <Skill image={GitHub} text='GitHub' />
+          <Skill image={Tailwind} text='Tailwind CSS' />
         </div>
       </div>
     </div>

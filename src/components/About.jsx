@@ -3,19 +3,6 @@ import React from 'react';
 
 const About = () => {
   return (
-    // <section
-    //   name='about'
-    //   className='w-full h-screen bg-[#1a1a1a] text-neutral-50'
-    // >
-    //   <h2 className='py-[100px] text-6xl flex flex-col items-center'>About</h2>
-    //   <div className='flex flex-col items-center'>
-    //     <IoPersonOutline className='w-[20%] h-[20%]' />
-    //     <div>
-    //       <div></div>
-    //     </div>
-    //   </div>
-    // </section>
-
     <section className='w-full h-screen bg-[#1a1a1a] text-neutral-50'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
