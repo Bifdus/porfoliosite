@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectImage from '../assets/workImg.jpeg';
+import Project from './Project';
 
 const Projects = () => {
   return (
@@ -17,30 +18,7 @@ const Projects = () => {
 
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${ProjectImage})` }}
-            className='shadow-lg shadow-[#0b0b0b] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          <Project image={ProjectImage} text='VR Boxing Game' />
         </div>
       </div>
     </section>

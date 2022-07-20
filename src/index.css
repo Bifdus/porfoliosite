@@ -29,6 +29,6 @@ content-div {
   background-image: linear-gradient(
     to right,
     rgba(117, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8)
+    hsla(242, 74%, 61%, 0.394)
   ) !important;
 }
