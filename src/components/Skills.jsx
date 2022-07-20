@@ -10,13 +10,16 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
   return (
-    <section name='skills' className='bg-[#1a1a1a] text-neutral-50'>
+    <section
+      name='skills'
+      className='w-full h-screen bg-[#1a1a1a] text-neutral-50'
+    >
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-red-400 '>
-            Experience
-          </p>
+          <h2 className='text-4xl font-bold inline border-b-4 border-red-400 '>
+            Skills
+          </h2>
           <p className='py-6'>Technologies i've worked with</p>
         </div>
 
