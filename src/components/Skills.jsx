@@ -10,7 +10,7 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='bg-[#1a1a1a] text-neutral-50'>
+    <section name='skills' className='bg-[#1a1a1a] text-neutral-50'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
@@ -30,7 +30,7 @@ const Skills = () => {
           <Skill image={Tailwind} text='Tailwind CSS' />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
