@@ -20,6 +20,10 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           <Project image={ProjectImage} text='VR Boxing Game' />
           <Project image={ProjectImage} text='Website' />
+          <Project image={ProjectImage} text='VR Boxing Game' />
+          <Project image={ProjectImage} text='Website' />
+          <Project image={ProjectImage} text='VR Boxing Game' />
+          <Project image={ProjectImage} text='Website' />
         </div>
       </div>
     </section>
