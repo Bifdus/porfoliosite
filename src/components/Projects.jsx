@@ -15,23 +15,31 @@ const Projects = () => {
           <p className='py-6'>Please take a look at some of my recent work</p>
         </div>
 
-        <div
-          style={{ backgroundImage: `url(${ProjectImage})` }}
-          className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'
-        >
-          <div className='shadow-lg shadow-[#0b0b0b] container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/* hover effect */}
-            {/* <div className='opacity-0 group-hover:opacity-100'>
-              <span></span>
-              <div>
+        {/* Container */}
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${ProjectImage})` }}
+            className='shadow-lg shadow-[#0b0b0b] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                React JS Application
+              </span>
+              <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button></button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>
+                    Demo
+                  </button>
                 </a>
                 <a href='/'>
-                  <button></button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>
+                    Code
+                  </button>
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
