@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/Denim Hodgson.png';
 import { Link } from 'react-scroll';
+import NavItem from './NavItem';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -51,43 +52,31 @@ const Navbar = () => {
               : 'absolute top-0 left-0 w-full h-screen bg-[#272727] flex flex-col justify-center items-center'
           }
         >
-          <li className='py-6 text-4xl'>
-            <li>
-              <Link
-                onClick={handleClick}
-                to='hero'
-                smooth={true}
-                duration={500}
-              >
-                Home
-              </Link>
-            </li>
-          </li>
-          <li className='py-6 text-4xl'>
-            <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li className='py-6 text-4xl'>
-            <Link
-              onClick={handleClick}
-              to='skills'
-              smooth={true}
-              duration={500}
-            >
-              Skills
-            </Link>
-          </li>
-          <li className='py-6 text-4xl'>
-            <Link
-              onClick={handleClick}
-              to='projects'
-              smooth={true}
-              duration={500}
-            >
-              Projects
-            </Link>
-          </li>
+          <NavItem
+            name='hero'
+            text='Home'
+            isStyle={true}
+            handleClick={handleClick}
+          />
+          <NavItem
+            name='about'
+            text='About'
+            isStyle={true}
+            handleClick={handleClick}
+          />
+          <NavItem
+            name='skills'
+            text='Skills'
+            isStyle={true}
+            handleClick={handleClick}
+          />
+
+          <NavItem
+            name='projects'
+            text='Projects'
+            isStyle={true}
+            handleClick={handleClick}
+          />
         </ul>
       </nav>
     </header>

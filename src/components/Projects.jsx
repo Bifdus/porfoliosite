@@ -13,7 +13,7 @@ const Projects = () => {
           <h2 className='text-4xl font-bold inline border-b-4 text-neutral-50 border-red-400'>
             Projects
           </h2>
-          <p className='py-6'>Please take a look at some of my recent work</p>
+          <p className='py-6'>Some of my recent work</p>
         </div>
 
         {/* Container */}
