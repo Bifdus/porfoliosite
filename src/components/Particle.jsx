@@ -30,13 +30,10 @@ function Particle() {
             },
           },
           color: {
-            value: '#fff',
+            value: '#ff0000',
           },
           shape: {
-            type: 'star',
-            options: {
-              sides: 5,
-            },
+            type: 'circle',
           },
           opacity: {
             value: 0.8,
@@ -49,18 +46,18 @@ function Particle() {
             },
           },
           size: {
-            value: 4,
+            value: 2,
             random: false,
             anim: {
               enable: false,
-              speed: 40,
+              speed: 1,
               size_min: 0.1,
               sync: false,
             },
           },
           move: {
             enable: true,
-            speed: 2,
+            speed: 0.3,
             direction: 'none',
             random: false,
             straight: false,
