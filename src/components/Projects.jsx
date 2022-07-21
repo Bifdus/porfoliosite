@@ -22,8 +22,6 @@ const Projects = () => {
           <Project image={ProjectImage} text='Website' />
           <Project image={ProjectImage} text='VR Boxing Game' />
           <Project image={ProjectImage} text='Website' />
-          <Project image={ProjectImage} text='VR Boxing Game' />
-          <Project image={ProjectImage} text='Website' />
         </div>
       </div>
     </section>

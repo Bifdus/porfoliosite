@@ -19,7 +19,7 @@ const Navbar = () => {
           <NavItem name='hero' text='Home' isStyle={false} />
           <NavItem name='about' text='About' isStyle={false} />
           <NavItem name='skills' text='Skills' isStyle={false} />
-          <NavItem name='projects' text='Skills' isStyle={false} />
+          <NavItem name='projects' text='Projects' isStyle={false} />
         </ul>
 
         {/* hamburger */}
