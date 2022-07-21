@@ -1,5 +1,4 @@
 import React from 'react';
-import Particle from './Particle';
 // import { IoPersonOutline } from 'react-icons/io5';
 
 const About = () => {
@@ -8,7 +7,6 @@ const About = () => {
       name='about'
       className='w-full h-screen bg-[#1a1a1a] text-neutral-50'
     >
-      <Particle />
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
