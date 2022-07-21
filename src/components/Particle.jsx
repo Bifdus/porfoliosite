@@ -23,14 +23,14 @@ function Particle() {
         },
         particles: {
           number: {
-            value: 10,
+            value: 20,
             density: {
               enable: false,
               value_area: 800,
             },
           },
           color: {
-            value: '#ff0000',
+            value: '#fafa',
           },
           shape: {
             type: 'circle',
