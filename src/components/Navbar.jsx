@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/Denim Hodgson.png';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,10 +16,26 @@ const Navbar = () => {
 
         {/* menu */}
         <ul className='hidden md:flex'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Projects</li>
+          <li>
+            <Link to='hero' smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to='about' smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to='skills' smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to='projects' smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
         </ul>
 
         {/* hamburger */}
@@ -34,10 +51,43 @@ const Navbar = () => {
               : 'absolute top-0 left-0 w-full h-screen bg-[#272727] flex flex-col justify-center items-center'
           }
         >
-          <li className='py-6 text-4xl'>About</li>
-          <li className='py-6 text-4xl'>Skills</li>
-          <li className='py-6 text-4xl'>Projects</li>
-          <li className='py-6 text-4xl'>Home</li>
+          <li className='py-6 text-4xl'>
+            <li>
+              <Link
+                onClick={handleClick}
+                to='hero'
+                smooth={true}
+                duration={500}
+              >
+                Home
+              </Link>
+            </li>
+          </li>
+          <li className='py-6 text-4xl'>
+            <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li className='py-6 text-4xl'>
+            <Link
+              onClick={handleClick}
+              to='skills'
+              smooth={true}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
+          <li className='py-6 text-4xl'>
+            <Link
+              onClick={handleClick}
+              to='projects'
+              smooth={true}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
