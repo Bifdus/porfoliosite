@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assets/Denim Hodgson.png';
-import { Link } from 'react-scroll';
 import NavItem from './NavItem';
 
 const Navbar = () => {
@@ -17,26 +16,10 @@ const Navbar = () => {
 
         {/* menu */}
         <ul className='hidden md:flex'>
-          <li>
-            <Link to='hero' smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to='about' smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to='skills' smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link to='projects' smooth={true} duration={500}>
-              Projects
-            </Link>
-          </li>
+          <NavItem name='hero' text='Home' isStyle={false} />
+          <NavItem name='about' text='About' isStyle={false} />
+          <NavItem name='skills' text='Skills' isStyle={false} />
+          <NavItem name='projects' text='Skills' isStyle={false} />
         </ul>
 
         {/* hamburger */}
