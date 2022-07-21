@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdNavigateNext } from 'react-icons/md';
 import Particle from './Particle';
+import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
@@ -23,8 +24,11 @@ const Hero = () => {
           </p>
           <div>
             <button className='text-white border-2 px-6 py-3 flex items-center hover:bg-red-400 hover:border-red-400'>
-              View Work
-              <span className='hover:rotate-90 duration-300'>
+              <Link to='projects' smooth={true} duration={500}>
+                View Work
+              </Link>
+
+              <span>
                 <MdNavigateNext className='ml-2' />
               </span>
             </button>
