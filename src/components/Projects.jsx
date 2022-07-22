@@ -10,7 +10,7 @@ const Projects = () => {
     >
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <h2 className='text-4xl font-bold inline border-b-4 text-neutral-50 border-red-400'>
+          <h2 className='text-4xl font-bold inline border-b-4 text-neutral-50 border-cyan-800'>
             Projects
           </h2>
           <p className='py-6'>Some of my recent work</p>
