@@ -30,7 +30,7 @@ const Hero = () => {
                 <p>View Work</p>
 
                 <span>
-                  <MdNavigateNext className='group ml-2' />
+                  <MdNavigateNext className='ml-2' />
                 </span>
               </button>
             </Link>

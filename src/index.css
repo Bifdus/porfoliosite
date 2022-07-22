@@ -32,3 +32,20 @@
     hsla(242, 74%, 61%, 0.394)
   ) !important;
 }
+
+#profile {
+  width: 16rem;
+  height: 16rem;
+  background: red;
+  border-radius: 50%;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  z-index: 1;
+}
+
+@media screen and (min-width: 700px) {
+  #profile {
+    width: 20rem;
+    height: 20rem;
+  }
+}

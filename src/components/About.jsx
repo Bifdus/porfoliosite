@@ -1,5 +1,6 @@
 import React from 'react';
 // import { IoPersonOutline } from 'react-icons/io5';
+import ProfileImg from '../assets/profile.jpg';
 
 const About = () => {
   return (
@@ -8,6 +9,7 @@ const About = () => {
       className='w-full h-screen bg-[#1a1a1a] text-neutral-50'
     >
       <div className='flex flex-col justify-center items-center w-full h-full'>
+        <img id='profile' src={ProfileImg} alt='Denim Hodgson Profile' />
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-fuchsia-800'>
@@ -19,10 +21,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-              totam porro, soluta officiis, esse velit maxime exercitationem
-              fugiat inventore sint a autem modi temporibus tempora ipsam
-              quisquam voluptatibus repudiandae earum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              in tempora quia atque quaerat explicabo, qui ratione iure nemo.
+              Architecto!
             </p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectImage from '../assets/workImg.jpeg';
+import ProjectImage from '../assets/boxing-game.jpg';
 import Project from './Project';
 
 const Projects = () => {
