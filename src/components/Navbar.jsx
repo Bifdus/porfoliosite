@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../assets/Denim Hodgson.png';
 import NavItem from './NavItem';
 
 const Navbar = () => {

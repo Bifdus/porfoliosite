@@ -13,12 +13,7 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-fuchsia-800'>
               About
             </p>
-          </div>
-          <div></div>
-        </div>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-          <div className='sm:text-right text-3xl font-bold'>
-            <h2 className='text-1xl sm:text-1xl'>
+            <h2 className='text-2xl sm:text-1xl pt-6'>
               Hi, Please take a look at the projects I have been working on
             </h2>
           </div>
