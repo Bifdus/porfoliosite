@@ -10,9 +10,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className='z-10 fixed w-full h-[3rem] flex justify-between items-center px-4 bg-[#272727] text-[#fafafa]'>
-        <div>
-          <img src={Logo} alt='Denim Logo' style={{ width: '50px' }} />
-        </div>
+        <div></div>
 
         {/* menu */}
         <ul className='hidden md:flex'>
