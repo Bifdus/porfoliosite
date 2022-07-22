@@ -15,12 +15,14 @@ const Hero = () => {
             Denim
           </h1>
           <h2 className='text-4xl sm:text-4xl text-slate-200'>
-            I'm a Graduate Computer Science Student
+            I'm a Computer Science Student
           </h2>
           <p className='text-[#fafafa] py-4 max-w-[700px]'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias in
-            libero repellat eligendi minus ducimus laborum ratione dolorem magni
-            ipsa.
+            I'm a soon to be computer science graduate seeking full time or
+            part-time employment as a front-end or full stack developer.
+            Throughout my life I have always had a passion for cutting edge
+            technology, which I am excited to build on throughout my career as a
+            web developer.
           </p>
           <div>
             <button className='text-white border-2 px-6 py-3 flex items-center hover:bg-cyan-600 hover:border-cyan-700'>
