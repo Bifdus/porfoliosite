@@ -25,15 +25,15 @@ const Hero = () => {
             web developer.
           </p>
           <div>
-            <button className='text-white border-2 px-6 py-3 flex items-center hover:bg-cyan-600 hover:border-cyan-700'>
-              <Link to='projects' smooth={true} duration={500}>
-                View Work
-              </Link>
+            <Link to='projects' smooth={true} duration={500}>
+              <button className='text-white border-2 px-6 py-3 flex items-center hover:bg-cyan-600 hover:border-cyan-700'>
+                <p>View Work</p>
 
-              <span>
-                <MdNavigateNext className='ml-2' />
-              </span>
-            </button>
+                <span>
+                  <MdNavigateNext className='group ml-2' />
+                </span>
+              </button>
+            </Link>
           </div>
         </article>
       </section>
