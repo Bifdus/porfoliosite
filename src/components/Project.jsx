@@ -41,7 +41,7 @@ const Project = (props) => {
           used for parkinsons rehabilitation patients. Axis and rotation data is
           stored in an sql database on a LAMP stack
         </p>
-        <a href='/'>
+        <a href='https://www.veed.io/view/4b6f9255-544d-45e7-9dc7-fcad99a63b53'>
           <div className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>
             <h1>Demo Video</h1>
           </div>

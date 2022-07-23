@@ -20,11 +20,7 @@ const About = () => {
             </h2>
           </div>
           <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              in tempora quia atque quaerat explicabo, qui ratione iure nemo.
-              Architecto!
-            </p>
+            <p>Outside of work I enjoy boxing to keep fit</p>
           </div>
         </div>
       </div>
