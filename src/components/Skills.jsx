@@ -6,7 +6,7 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactLogo from '../assets/react.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
+import Java from '../assets/java.png';
 
 const Skills = () => {
   return (
@@ -20,7 +20,7 @@ const Skills = () => {
           <h2 className='text-4xl font-bold inline border-b-4 border-rose-800 '>
             Skills
           </h2>
-          <p className='py-6'>Technologies i've worked with</p>
+          <p className='py-6'>Technologies i'm comfortable with</p>
         </div>
 
         {/* Skills Grid*/}
@@ -30,7 +30,7 @@ const Skills = () => {
           <Skill image={JavaScript} text='JavaScript' />
           <Skill image={ReactLogo} text='React JS' />
           <Skill image={GitHub} text='GitHub' />
-          <Skill image={Tailwind} text='Tailwind CSS' />
+          <Skill image={Java} text='Java' />
         </div>
       </div>
     </section>
