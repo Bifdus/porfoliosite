@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectImage from '../assets/boxing-game.jpg';
+import ProjectImage from '../assets/boxing-game-2.jpg';
 import Project from './Project';
 
 const Projects = () => {
@@ -8,7 +8,7 @@ const Projects = () => {
       name='projects'
       className='w-full pt-16 md:h-full text-neutral-50 bg-[#1a1a1a]'
     >
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <h2 className='text-4xl font-bold inline border-b-4 text-neutral-50 border-cyan-800'>
             Projects
