@@ -16,7 +16,7 @@ const About = () => {
               About
             </p>
             <h2 className='text-2xl sm:text-1xl pt-6'>
-              Hi, Please take a look at the projects I have been working on
+              Hi, Please take a look around
             </h2>
           </div>
           <div>

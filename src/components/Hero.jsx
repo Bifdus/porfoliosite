@@ -18,11 +18,11 @@ const Hero = () => {
             I'm a Computer Science Student
           </h2>
           <p className='text-[#fafafa] py-4 max-w-[700px]'>
-            I'm a soon to be computer science graduate seeking full time or
-            part-time employment as a front-end or full stack developer.
-            Throughout my life I have always had a passion for cutting edge
-            technology, which I am excited to build on throughout my career as a
-            web developer.
+            I'm a soon to be computer science graduate at Murdoch University
+            seeking full time or part-time employment as a front-end or full
+            stack developer. Throughout my life I have always had a passion for
+            cutting edge technology, which I am excited to build on throughout
+            my career as a web developer.
           </p>
           <div>
             <Link to='projects' smooth={true} duration={500}>
