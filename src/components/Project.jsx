@@ -7,7 +7,7 @@ const Project = (props) => {
         <div className='flex mb-12'>
           <div
             style={{ backgroundImage: `url(${props.image})` }}
-            className='mt-8 shadow-lg shadow-[#0b0b0b] group container rounded-md justify-center items-center mx-auto relative z-0 content-div'
+            className='mt-8 mr-16 group container  justify-center items-center mx-auto relative z-0 content-div'
           >
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
