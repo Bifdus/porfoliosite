@@ -17,7 +17,7 @@ const Projects = () => {
         </div>
 
         {/* Container */}
-        <div className='grid sm:grid-cols-1 gap-4'>
+        <div className='grid sm:grid-cols-2 gap-4'>
           <Project image={ProjectImage} text='VR Boxing Game' />
           <Project image={ProjectImage} text='Website' />
           <Project image={ProjectImage} text='VR Boxing Game' />
