@@ -5,7 +5,7 @@ export const projectData = [
     text: 'The multiplayer component of the game was set up using Photon and Photon Voice. The game mode allows players to join lobbies and interact with each other. Includes RPCs for collision detection.',
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658724765/Website/boxing-game-2_ynztx1.jpg',
-    link: 'https://www.veed.io/view/84beca59-6d02-432c-b865-cbcc18d8bf9c',
+    link: 'https://www.veed.io/view/8bbf41c9-b9b7-4652-8699-005a5183c6dd/0006a473-7971-402c-b38d-3417ad249afd',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const projectData = [
   {
     id: 4,
     title: 'This Website',
-    text: 'This website has been created using React JS. Each section contains components that are styled. Project population is done via iterating using map',
+    text: 'This website has been created using React JS/Typescript. Each section contains components that are styled. Basic use of hooks.',
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658726223/Website/website_akf2x5.jpg',
     link: 'https://www.denimhodgson.com/',
