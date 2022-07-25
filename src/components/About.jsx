@@ -21,16 +21,17 @@ const About = () => {
           </div>
           <div>
             <p>
-              I have a strong passion for web development. In particular, I
-              enjoy working with industry standard frameworks to create clean
-              and functional applications that are deployed to cloud services.
-              In pursuing a career as a web developer, I am seeking
-              opportunities which will help me to improve my skills in front and
-              back end development and enable me to explore new and emerging
-              techniques / technologies. In addition to my technical
-              capabilities, I prioritise customer experience and am passionate
-              about relationship building. Outside of work I enjoy boxing to
-              keep fit
+              During my time working as IT and manufacturing hydraulic hoses I
+              stumbled upon a strong passion for web development. This has
+              driven me to change my career as in particular, I enjoy working
+              with industry standard frameworks to create clean and functional
+              applications that are deployed to cloud services. In pursuing a
+              career as a web developer, I am seeking opportunities which will
+              help me to improve my skills in front and back end development and
+              enable me to explore new and emerging techniques / technologies.
+              In addition to my technical capabilities, I prioritise customer
+              experience and am passionate about relationship building. Outside
+              of work, I enjoy boxing to keep fit
             </p>
           </div>
         </div>

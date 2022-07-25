@@ -20,7 +20,7 @@ const Skills = () => {
           <h2 className='text-4xl font-bold inline border-b-4 border-rose-800 '>
             Skills
           </h2>
-          <p className='py-6'>Technologies i'm comfortable with</p>
+          <p className='py-6'>Technologies i'm proficient with</p>
         </div>
 
         {/* Skills Grid*/}
