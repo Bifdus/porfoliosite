@@ -95,8 +95,10 @@ li {
   z-index: 1;
 }
 
-#styled-u-list {
+.styled-list {
   cursor: default;
+  list-style: disc;
+  padding-left: 3rem;
 }
 
 @media screen and (min-width: 700px) {

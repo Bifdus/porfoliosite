@@ -12,7 +12,7 @@ const Navbar = () => {
         <div></div>
 
         {/* menu */}
-        <ul className='hidden md:flex styled-u-list'>
+        <ul className='hidden md:flex'>
           <NavItem name='hero' text='Home' isStyle={false} />
           <NavItem name='about' text='About' isStyle={false} />
           <NavItem name='skills' text='Skills' isStyle={false} />
