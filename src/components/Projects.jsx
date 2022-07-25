@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import ProjectImage from '../assets/boxing-game-2.jpg';
 import Project from './Project';
 import { projectData } from '../assets/data/projectData';
 
 const Projects = () => {
-  const [projects, setProjects] = useState(projectData);
+  const [projects] = useState(projectData);
   return (
     <section
       name='projects'
@@ -56,12 +55,27 @@ const Projects = () => {
         {/* Container */}
         <div className='grid sm:grid-cols-2 gap-4'>
           {projects.map((project) => {
-            const { id, title, text, image } = project;
-            return <Project id={id} title={title} text={text} image={image} />;
+            const { id, title, text, image, link } = project;
+            // if (project.id === 4) {
+            //   return (
+            //     <>
+            //       <h2>Other Projects</h2>
+            //       <div>
+            //         <Project id={id} title={title} text={text} image={image} />
+            //       </div>
+            //     </>
+            //   );
+            // }
+            return (
+              <Project
+                id={id}
+                title={title}
+                text={text}
+                image={image}
+                link={link}
+              />
+            );
           })}
-          <Project image={ProjectImage} text='VR Boxing Game' />
-          <Project image={ProjectImage} text='Website' />
-          <Project image={ProjectImage} text='VR Boxing Game' />
         </div>
       </div>
     </section>
