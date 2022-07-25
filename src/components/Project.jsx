@@ -15,7 +15,7 @@ const Project = (props) => {
       <div className='bg-[#1a1a1a)'>
         <h2 className='my-4 mx-4 font-bold text-2xl'>{props.title}</h2>
         <p className='mx-4'>{props.text}</p>
-        <div className='flex justify-center mt-24'>
+        <div className='flex justify-center my-8'>
           <a href={props.link}>
             <div className='text-center rounded-lg px-8 py-3 mx-2 bg-slate-800 text-neutral-50 font-bold text-lg'>
               <h1>Demo</h1>
