@@ -27,22 +27,29 @@ const Projects = () => {
             environment. Our group was tasked with creating games for stroke and
             parkinsons rehabilitation patients.
           </p>
-          <h2 className='font-bold py-4 px-4'>Boxing Game/Server</h2>
-          <p className='px-4'>
-            The game I worked on was a Single/Multiplayer Boxing game intended
-            for Parkinsons rehabilitation patients using the Oculus Quest 2.
+          <p className='pt-2 px-4'>
+            The game I worked on with another student was a Single/Multiplayer
+            Boxing game to be deployed as an apk that connects to a server
+            hosted at the university to enable patient data to be logged to
+            track progress and to enable restrictions setup for game modes for
+            specific patients. The game is intended for Parkinsons
+            rehabilitation patients using the Oculus Quest 2, studies have shown
+            that rythmic movements can slow down or even regress disease
+            progression.
           </p>
-          <p className='py-6 px-4'>Requirements for the boxing game</p>
+          <p className='py-6 px-4 font-bold'>
+            Requirements for the boxing game:
+          </p>
           <ul className='styled-list'>
             <li>
-              Any data that can be logged about the patients movements must be
-              logged and stored on a database hosted on a LAMP stack at Murdoch
-              University
+              Game must include a functional multiplayer. Previous iterations of
+              the project were successful whilst in testing stages as patients
+              were in a social setting. Once the testing ended, the patients
+              participation rates decreased.
             </li>
             <li>
-              As this is intended to be used for clinical trials. Clinicians
-              must be able to have complete control of the setup of the game
-              through a web interface.
+              Positional data is logged to the database hosted on a sever at
+              murdoch for later processing.
             </li>
             <li>
               Boxing Game must include a static target game mode. The

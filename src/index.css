@@ -10,14 +10,8 @@
 } */
 @layer base {
   body {
-    @apply font-[Raleway];
+    @apply font-[Montserrat];
   }
-}
-
-li {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  cursor: text;
 }
 
 .nav-list {
@@ -99,6 +93,10 @@ li {
   cursor: default;
   list-style: disc;
   padding-left: 3rem;
+}
+
+.styled-list li {
+  margin-top: 0.75rem;
 }
 
 @media screen and (min-width: 700px) {

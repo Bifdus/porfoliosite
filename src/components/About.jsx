@@ -20,7 +20,14 @@ const About = () => {
             </h2>
           </div>
           <div>
-            <p>Outside of work I enjoy boxing to keep fit</p>
+            <p>
+              I have gained a strong passion for web development and
+              specifically new frameworks for creating clean and functional apps
+              that are deployed to cloud services. I am constantly seeking to
+              improve my skills in front and back end web development and would
+              take any opportunity to further that goal. Outside of work I enjoy
+              boxing to keep fit
+            </p>
           </div>
         </div>
       </div>
