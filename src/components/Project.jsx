@@ -15,11 +15,18 @@ const Project = (props) => {
       <div className='bg-[#1a1a1a)'>
         <h2 className='my-4 mx-4 font-bold text-2xl'>{props.title}</h2>
         <p className='mx-4'>{props.text}</p>
-        <a href={props.link}>
-          <div className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>
-            <h1>Demo Video</h1>
-          </div>
-        </a>
+        <div className='flex justify-center mt-24'>
+          <a href={props.link}>
+            <div className='text-center rounded-lg px-8 py-3 mx-2 bg-slate-800 text-neutral-50 font-bold text-lg'>
+              <h1>Demo</h1>
+            </div>
+          </a>
+          {/* <a href='/'>
+            <div className='text-center rounded-lg px-4 py-3 mx-2 bg-white text-gray-800 font-bold text-lg'>
+              <h1>Demo</h1>
+            </div>
+          </a> */}
+        </div>
       </div>
     </>
   );
