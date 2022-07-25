@@ -5,7 +5,8 @@ export const projectData = [
     id: 1,
     title: 'Multiplayer Boxing Game',
     text: 'The multiplayer component of the game was set up using Photon and Photon Voice. The game mode allows players to join lobbies and interact with each other. Includes RPCs for collision detection.',
-    image: '../boxing-game-2.jpg',
+    image:
+      'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658724765/Website/boxing-game-2_ynztx1.jpg',
   },
   {
     id: 2,
