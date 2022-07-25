@@ -10,11 +10,11 @@ const Projects = () => {
       className='w-full pt-16 md:h-full text-neutral-50 bg-[#1a1a1a]'
     >
       <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
+        <div className='pb-8 pl-4'>
           <h2 className='text-4xl font-bold inline border-b-4 text-neutral-50 border-cyan-800'>
             Projects
           </h2>
-          <p className='pt-6'>Some of my recent work</p>
+          <p className='py-6'>Some of my recent work:</p>
         </div>
 
         <article className='pb-12'>
@@ -22,39 +22,39 @@ const Projects = () => {
             University Professional Practice Project
           </h2>
           <p className='pb-4 px-4'>
-            Murdoch university offers a professional practice unit where
-            students can gain industry experience in a controlled university
-            environment. Our group was tasked with creating games for stroke and
-            parkinsons rehabilitation patients.
+            As part of my degree, I undertook a professional practice unit which
+            allowed me to gain industry experience in a controlled learning
+            environment. As part of this unit, my group was tasked with creating
+            a game for stroke and parkinsons patients, on the back of recent
+            studies showing that rhythmic movements can slow or even regress
+            disease progression.
           </p>
           <p className='pt-2 px-4'>
-            The game I worked on with another student was a Single/Multiplayer
-            Boxing game to be deployed as an apk that connects to a server
-            hosted at the university to enable patient data to be logged to
-            track progress and to enable restrictions setup for game modes for
-            specific patients. The game is intended for Parkinsons
-            rehabilitation patients using the Oculus Quest 2, studies have shown
-            that rythmic movements can slow down or even regress disease
-            progression.
+            The game we developed was a single/multiplayer boxing game, designed
+            for play on the Oculus Quest 2. The game was deployed as a
+            standalone apk that connects to a server hosted at the University.
+            This allows patient data to be logged to track progress and enables
+            bespoke game modes to be set up for specific patient needs.
           </p>
           <p className='py-6 px-4 font-bold'>
-            Requirements for the boxing game:
+            The boxing game design brief was as follows:
           </p>
           <ul className='styled-list'>
             <li>
-              Game must include a functional multiplayer. Previous iterations of
-              the project were successful whilst in testing stages as patients
-              were in a social setting. Once the testing ended, the patients
-              participation rates decreased.
+              The game must be a functional multiplayer, with a focus on
+              maintaining engagement over time. We were informed that previous
+              projects had seen success in testing phases, but a significant
+              decrease in participation rates once the trial had finished likely
+              due to the absence of social encouragement.
             </li>
             <li>
-              Positional data is logged to the database hosted on a sever at
-              murdoch for later processing.
+              Positional data is to be logged to the database hosted on a sever
+              at the University for later processing.
             </li>
             <li>
-              Boxing Game must include a static target game mode. The
-              restrictions for this game mode are set by the clinician and
-              boxing coach through the web interface
+              The Game must include a static target game mode. The restrictions
+              for this game mode must be able to be set by the clinician and
+              boxing coach through a web interface
             </li>
           </ul>
         </article>

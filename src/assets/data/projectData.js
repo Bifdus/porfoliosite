@@ -18,15 +18,15 @@ export const projectData = [
   {
     id: 3,
     title: 'Web Interface for Clinician Setup',
-    text: 'I added the boxing target addition to the existing database. The server incorporated a LAMP stack.',
+    text: 'I added the boxing target to the existing web application. The server is hosted on a LAMP stack.',
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658727336/Website/webinterface_doyovi.jpg',
     link: 'https://www.veed.io/view/84beca59-6d02-432c-b865-cbcc18d8bf9c',
   },
   {
     id: 4,
-    title: 'This Website',
-    text: 'This website has been created using React JS/Typescript. Each section contains components that are styled. Basic use of hooks.',
+    title: 'Portfolio Website',
+    text: 'This website has been created using React JS/Typescript. Each section contains components that are independently styled.',
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658726223/Website/website_akf2x5.jpg',
     link: 'https://www.denimhodgson.com/',

@@ -16,17 +16,21 @@ const About = () => {
               About
             </p>
             <h2 className='text-2xl sm:text-1xl pt-6'>
-              Hi, Please take a look around
+              Hi. Please take a look around
             </h2>
           </div>
           <div>
             <p>
-              I have gained a strong passion for web development and
-              specifically new frameworks for creating clean and functional apps
-              that are deployed to cloud services. I am constantly seeking to
-              improve my skills in front and back end web development and would
-              take any opportunity to further that goal. Outside of work I enjoy
-              boxing to keep fit
+              I have a strong passion for web development. In particular, I
+              enjoy working with industry standard frameworks to create clean
+              and functional applications that are deployed to cloud services.
+              In pursuing a career as a web developer, I am seeking
+              opportunities which will help me to improve my skills in front and
+              back end development and enable me to explore new and emerging
+              techniques / technologies. In addition to my technical
+              capabilities, I prioritise customer experience and am passionate
+              about relationship building. Outside of work I enjoy boxing to
+              keep fit
             </p>
           </div>
         </div>
