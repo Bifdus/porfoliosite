@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProjectImage from '../assets/boxing-game-2.jpg';
 import Project from './Project';
+import { projectData } from '../assets/data/projectData';
 
 const Projects = () => {
+  const [projects, setProjects] = useState(projectData);
   return (
     <section
       name='projects'
@@ -26,17 +28,10 @@ const Projects = () => {
             environment. Our group was tasked with creating games for stroke and
             parkinsons rehabilitation patients.
           </p>
-          <h2 className='font-bold'>Omni Game</h2>
-          <p>
-            The first game in the requirements was intended for stroke
-            rehabilitation patients using the Vive and the Omni by virtuix. As
-            the scope of the project was very large, I did not work on this part
-            of the project.
-          </p>
           <h2 className='font-bold py-4'>Boxing Game/Server</h2>
           <p>
-            The second game in the requirements was intended for parkinsons
-            rehabilitation patients using the Vive and Omni by virtuix.
+            The game I worked on was a Single/Multiplayer game intended for
+            parkinsons rehabilitation patients using the Oculus Quest 2.
           </p>
           <p className='py-6'>Requirements for the boxing game</p>
           <ul className='list-disc'>
@@ -60,6 +55,10 @@ const Projects = () => {
 
         {/* Container */}
         <div className='grid sm:grid-cols-2 gap-4'>
+          {projects.map((project) => {
+            const { id, title, text, image } = project;
+            return <Project id={id} title={title} text={text} image={image} />;
+          })}
           <Project image={ProjectImage} text='VR Boxing Game' />
           <Project image={ProjectImage} text='Website' />
           <Project image={ProjectImage} text='VR Boxing Game' />
