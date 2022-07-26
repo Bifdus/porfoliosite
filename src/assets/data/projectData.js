@@ -6,6 +6,7 @@ export const projectData = [
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658724765/Website/boxing-game-2_ynztx1.jpg',
     link: 'https://www.veed.io/view/8bbf41c9-b9b7-4652-8699-005a5183c6dd/0006a473-7971-402c-b38d-3417ad249afd',
+    buttontext: 'Video',
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const projectData = [
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658726979/Website/statictargets2_pbrw6p.jpg',
     link: 'https://www.veed.io/view/4b6f9255-544d-45e7-9dc7-fcad99a63b53',
+    buttontext: 'Video',
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ export const projectData = [
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658727336/Website/webinterface_doyovi.jpg',
     link: 'https://www.veed.io/view/84beca59-6d02-432c-b865-cbcc18d8bf9c',
+    buttontext: 'Video',
   },
   {
     id: 4,
@@ -30,5 +33,6 @@ export const projectData = [
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658726223/Website/website_akf2x5.jpg',
     link: 'https://www.denimhodgson.com/',
+    buttontext: 'Github',
   },
 ];

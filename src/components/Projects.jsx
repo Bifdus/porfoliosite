@@ -62,20 +62,17 @@ const Projects = () => {
         {/* Container */}
         <div className='grid sm:grid-cols-2 gap-4'>
           {projects.map((project) => {
-            const { id, title, text, image, link } = project;
-            // if (project.id === 4) {
-            //   return (
-            //     <>
-            //       <h2>Other Projects</h2>
-            //       <div>
-            //         <Project id={id} title={title} text={text} image={image} />
-            //       </div>
-            //     </>
-            //   );
-            // }
+            const { id, title, text, image, link, buttontext } = project;
+
             return (
               <React.Fragment key={id}>
-                <Project title={title} text={text} image={image} link={link} />
+                <Project
+                  title={title}
+                  text={text}
+                  image={image}
+                  link={link}
+                  buttontext={buttontext}
+                />
               </React.Fragment>
             );
           })}

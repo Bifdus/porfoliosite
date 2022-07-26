@@ -3,7 +3,7 @@ import React from 'react';
 const Project = (props) => {
   return (
     <>
-      <div key={props.id} className='bg-[rgba(50,22,187,0.60)]'>
+      <div className='bg-[rgba(50,22,187,0.60)]'>
         <div className='flex'>
           <div
             style={{ backgroundImage: `url(${props.image})` }}
@@ -18,7 +18,7 @@ const Project = (props) => {
         <div className='flex justify-center my-8'>
           <a href={props.link}>
             <div className='text-center rounded-lg px-8 py-3 mx-2 bg-slate-800 text-neutral-50 font-bold text-lg'>
-              <h1>Demo</h1>
+              <h1>{props.buttontext}</h1>
             </div>
           </a>
           {/* <a href='/'>
