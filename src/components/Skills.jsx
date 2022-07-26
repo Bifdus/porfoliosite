@@ -5,7 +5,7 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactLogo from '../assets/react.png';
-import GitHub from '../assets/github.png';
+import Git from '../assets/git.png';
 import Java from '../assets/java.png';
 
 const Skills = () => {
@@ -29,7 +29,7 @@ const Skills = () => {
           <Skill image={CSS} text='CSS' />
           <Skill image={JavaScript} text='JavaScript' />
           <Skill image={ReactLogo} text='React JS' />
-          <Skill image={GitHub} text='GitHub' />
+          <Skill image={Git} text='Git' />
           <Skill image={Java} text='Java' />
         </div>
       </div>
