@@ -21,9 +21,9 @@ const About = () => {
           </div>
           <div>
             <p className='mx-4'>
-              During my time working as an IT support technician and
-              manufacturing hydraulic hoses, I stumbled upon a strong passion
-              for web development. This has driven me to change my career as in
+              During my time working in a different industry manufacturing
+              hydraulic hoses, I stumbled upon a strong passion for web
+              development. This has driven me to change my career as in
               particular, I enjoy working with industry standard frameworks to
               create clean and functional applications that are deployed to
               cloud services. In pursuing a career as a web developer, I am
