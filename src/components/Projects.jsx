@@ -74,13 +74,9 @@ const Projects = () => {
             //   );
             // }
             return (
-              <Project
-                id={id}
-                title={title}
-                text={text}
-                image={image}
-                link={link}
-              />
+              <React.Fragment key={id}>
+                <Project title={title} text={text} image={image} link={link} />
+              </React.Fragment>
             );
           })}
         </div>
