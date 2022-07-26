@@ -62,14 +62,14 @@ const Projects = () => {
         {/* Container */}
         <div className='grid sm:grid-cols-2 gap-4'>
           {projects.map((project) => {
-            const { id, title, text, image, link, buttontext } = project;
+            const { id, title, text, embedId, link, buttontext } = project;
 
             return (
               <React.Fragment key={id}>
                 <Project
                   title={title}
                   text={text}
-                  image={image}
+                  image={embedId}
                   link={link}
                   buttontext={buttontext}
                 />
