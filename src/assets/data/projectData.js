@@ -3,7 +3,7 @@ export const projectData = [
     id: 1,
     title: 'Multiplayer Boxing Game',
     text: 'The multiplayer component of the game was set up using Photon and Photon Voice. The game mode allows players to join lobbies and interact with each other. Includes RPCs for collision detection.',
-    image: '8bbf41c9-b9b7-4652-8699-005a5183c6dd',
+    embedId: '8bbf41c9-b9b7-4652-8699-005a5183c6dd',
     link: 'https://www.veed.io/view/8bbf41c9-b9b7-4652-8699-005a5183c6dd',
     buttontext: 'Video',
   },

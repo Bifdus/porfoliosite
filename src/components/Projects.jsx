@@ -69,7 +69,7 @@ const Projects = () => {
                 <Project
                   title={title}
                   text={text}
-                  image={embedId}
+                  embedId={embedId}
                   link={link}
                   buttontext={buttontext}
                 />
