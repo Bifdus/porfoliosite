@@ -7,7 +7,7 @@ const VeedioEmbed = (props) => (
     src={`https://www.veed.io/embed/${props.embedId}`}
     allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
     allowFullScreen
-    title='Embedded youtube'
+    title='Embedded veed.io'
   />
 );
 
