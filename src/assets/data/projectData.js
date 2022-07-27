@@ -26,7 +26,7 @@ export const projectData = [
     text: 'This website has been created using React JS/Typescript. Each section contains components that are independently styled. Particles generated via tsparticles.',
     image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658726223/Website/website_akf2x5.jpg',
-    link: 'https://github.com/Bifdus/porftolio-site',
+    link: 'https://github.com/Bifdus/portfolio-site',
     buttontext: 'Github',
   },
 ];
