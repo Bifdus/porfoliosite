@@ -60,9 +60,10 @@ const Projects = () => {
         </article>
 
         {/* Container */}
-        <div className='grid sm:grid-cols-2 gap-4'>
+        <div className='grid sm:grid-cols-2 gap-4 mt-16'>
           {projects.map((project) => {
-            const { id, title, text, embedId, link, buttontext } = project;
+            const { id, title, text, embedId, link, image, buttontext } =
+              project;
 
             return (
               <React.Fragment key={id}>
@@ -71,6 +72,7 @@ const Projects = () => {
                   text={text}
                   embedId={embedId}
                   link={link}
+                  image={image}
                   buttontext={buttontext}
                 />
               </React.Fragment>
