@@ -16,7 +16,7 @@ export const projectData = [
   {
     id: 3,
     title: 'Web Interface for Clinician Setup',
-    text: 'I added the boxing target to the existing web application. The server is hosted on a LAMP stack.',
+    text: 'I added the boxing target functionality to the existing web application. The server is hosted on a LAMP stack.',
     embedId: '84beca59-6d02-432c-b865-cbcc18d8bf9c',
     link: 'https://www.veed.io/view/84beca59-6d02-432c-b865-cbcc18d8bf9c',
   },
