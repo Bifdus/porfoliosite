@@ -3,7 +3,7 @@ import VeedioEmbed from './VeedioEmbed';
 
 const Project = (props) => {
   return (
-    <>
+    <div className='py-8'>
       <div className='bg-[rgba(50,22,187,0.60)]'>
         <div className='flex'>
           {props.image ? (
@@ -37,7 +37,7 @@ const Project = (props) => {
           <div></div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
