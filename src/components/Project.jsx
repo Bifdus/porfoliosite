@@ -4,7 +4,7 @@ import VeedioEmbed from './VeedioEmbed';
 const Project = (props) => {
   return (
     <>
-      <div className='bg-[rgba(50,22,187,0.60)] video-responsive'>
+      <div className='bg-[rgba(50,22,187,0.60)]'>
         <div className='flex'>
           {props.image ? (
             <div
