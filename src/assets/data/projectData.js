@@ -19,8 +19,7 @@ export const projectData = [
     id: 3,
     title: 'Web Interface for Clinician Setup',
     text: 'I added the boxing target to the existing web application. The server is hosted on a LAMP stack.',
-    embedId:
-      'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658727336/Website/webinterface_doyovi.jpg',
+    embedId: '84beca59-6d02-432c-b865-cbcc18d8bf9c',
     link: 'https://www.veed.io/view/84beca59-6d02-432c-b865-cbcc18d8bf9c',
     buttontext: 'Video',
   },
@@ -28,7 +27,7 @@ export const projectData = [
     id: 4,
     title: 'Portfolio Website',
     text: 'This website has been created using React JS/Typescript. Each section contains components that are independently styled. Particles generated via tsparticles.',
-    embedId:
+    image:
       'https://res.cloudinary.com/dlyygpzwl/image/upload/v1658726223/Website/website_akf2x5.jpg',
     link: 'https://github.com/Bifdus/porfoliosite',
     buttontext: 'Github',

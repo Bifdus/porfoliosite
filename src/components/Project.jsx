@@ -1,12 +1,12 @@
 import React from 'react';
-import YoutubeEmbed from './YoutubeEmbed';
+import VeedioEmbed from './VeedioEmbed';
 
 const Project = (props) => {
   return (
     <>
-      <div className='bg-[rgba(50,22,187,0.60)]'>
+      <div className='bg-[rgba(50,22,187,0.60)] video-responsive'>
         <div className='flex'>
-          <YoutubeEmbed embedId={props.embedId} />
+          <VeedioEmbed embedId={props.embedId} />
           {/* <div
             style={{ backgroundImage: `url(${props.image})` }}
             className='container content-div hover:scale-110 duration-500'

@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const YoutubeEmbed = (props) => (
+const VeedioEmbed = (props) => (
   <>
     <iframe
       width='853'
       height='480'
-      src={`https://www.youtube.com/embed/${props.embedId}`}
+      src={`https://www.veed.io/embed/${props.embedId}`}
       frameBorder='0'
       allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
       allowFullScreen
@@ -15,8 +15,8 @@ const YoutubeEmbed = (props) => (
   </>
 );
 
-YoutubeEmbed.propTypes = {
+VeedioEmbed.propTypes = {
   embedId: PropTypes.string.isRequired,
 };
 
-export default YoutubeEmbed;
+export default VeedioEmbed;
