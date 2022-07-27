@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const VeedioEmbed = (props) => (
-  <>
+  <div className='container content-div hover:scale-110 duration-500'>
     <iframe
       width='853'
       height='480'
@@ -12,7 +12,7 @@ const VeedioEmbed = (props) => (
       allowFullScreen
       title='Embedded youtube'
     />
-  </>
+  </div>
 );
 
 VeedioEmbed.propTypes = {
