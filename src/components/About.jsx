@@ -23,16 +23,15 @@ const About = () => {
             <p className='mx-4'>
               During my time working in a different industry manufacturing
               hydraulic hoses, I stumbled upon a strong passion for web
-              development. This has driven me to change my career as in
-              particular, I enjoy working with industry standard frameworks to
-              create clean and functional applications that are deployed to
-              cloud services. In pursuing a career as a web developer, I am
-              seeking opportunities which will help me to improve my skills in
-              front and back end development and enable me to explore new and
-              emerging techniques / technologies. In addition to my technical
-              capabilities, I prioritise customer experience and am passionate
-              about relationship building. Outside of work, I enjoy boxing to
-              keep fit
+              development. This inspired me to pursue a career working with
+              industry standard frameworks to create clean and functional
+              applications that are deployed to cloud services. In pursuing a
+              career as a developer, I am seeking opportunities which will help
+              me to improve my skills in front and back end development and
+              enable me to explore new and emerging techniques / technologies.
+              In addition to my technical capabilities, I prioritise customer
+              experience and am passionate about relationship building. Outside
+              of work, I enjoy boxing to keep fit
             </p>
           </div>
         </div>

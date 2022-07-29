@@ -22,7 +22,7 @@ const Hero = () => {
             seeking full time or part-time employment as a front-end or full
             stack developer. Throughout my life I have always had a passion for
             cutting edge technology, which I am excited to build on throughout
-            my career as a web developer.
+            my career as a developer.
           </p>
           <div>
             <Link to='projects' smooth={true} duration={500}>
