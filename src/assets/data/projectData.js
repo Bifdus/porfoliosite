@@ -16,7 +16,7 @@ export const projectData = [
   {
     id: 3,
     title: 'Static Targets Boxing',
-    text: 'Static target game mode where patients can play a static practice program that is specified per patient through the clinician web interface.',
+    text: 'Static target game mode where patients can play a static practice program that is unique per patient, set up via the clinician web interface.',
     embedId: '4b6f9255-544d-45e7-9dc7-fcad99a63b53',
     link: 'https://www.veed.io/view/4b6f9255-544d-45e7-9dc7-fcad99a63b53',
   },
