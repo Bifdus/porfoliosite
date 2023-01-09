@@ -15,14 +15,17 @@ const Hero = () => {
             Denim
           </h1>
           <h2 className='text-4xl sm:text-4xl text-slate-200'>
-            I'm a Computer Science Student
+            I'm a Computer Science Graduate
           </h2>
           <p className='text-[#fafafa] py-4 max-w-[700px]'>
-            I'm a soon to be computer science graduate at Murdoch University
-            seeking full time or part-time employment as a front-end or full
-            stack developer. Throughout my life I have always had a passion for
-            cutting edge technology, which I am excited to build on throughout
-            my career as a developer.
+            I am a highly motivated computer science graduate from Murdoch
+            University with a strong passion for technology and development. I
+            am eager to apply my skills and knowledge as a front-end or full
+            stack developer in a full-time or part-time role. Throughout my
+            academic and personal experiences, I have consistently demonstrated
+            my ability to learn and adapt quickly to new technologies. I am
+            confident that my skills and enthusiasm make me an ideal candidate
+            for any development opportunity.
           </p>
           <div>
             <Link to='projects' smooth={true} duration={500}>

@@ -21,17 +21,18 @@ const About = () => {
           </div>
           <div>
             <p className='mx-4'>
-              During my time working in a different industry manufacturing
-              hydraulic hoses, I stumbled upon a strong passion for web
-              development. This inspired me to pursue a career working with
-              industry standard frameworks to create clean and functional
-              applications that are deployed to cloud services. In pursuing a
-              career as a developer, I am seeking opportunities which will help
-              me to improve my skills in front and back end development and
-              enable me to explore new and emerging techniques / technologies.
-              In addition to my technical capabilities, I prioritise customer
-              experience and am passionate about relationship building. Outside
-              of work, I enjoy boxing to keep fit
+              I have always had a fascination with technology and development,
+              and when I began working on computer science projects I discovered
+              my passion for web development. This inspired me to pursue a
+              career in the field and hone my skills using industry standard
+              frameworks including ReactJS and Typescript to create functional
+              and user-friendly applications. I am constantly seeking
+              opportunities to improve my skills in both front and back end
+              development, as well as explore new and emerging techniques and
+              technologies. In addition to my technical expertise, I place a
+              strong emphasis on customer experience and am committed to
+              building positive relationships. Outside of work, I enjoy staying
+              active through boxing and other fitness activities.
             </p>
           </div>
         </div>
