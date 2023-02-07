@@ -14,49 +14,27 @@ const Projects = () => {
           <h2 className='text-4xl font-bold inline border-b-4 text-neutral-50 border-cyan-800'>
             Projects
           </h2>
-          <p className='py-6'>Some of my recent work:</p>
         </div>
 
-        <article className='pb-12'>
+        <article className='pt-8'>
           <h2 className='font-bold text-3xl pb-8 px-4 '>
             University Professional Practice Project
           </h2>
           <p className='pb-4 px-4'>
-            As part of my degree, I undertook a professional practice unit which
-            allowed me to gain industry experience in a controlled learning
-            environment. As part of this unit, my group was tasked with creating
-            a game for stroke and parkinsons patients, on the back of recent
-            studies showing that rhythmic movements can slow or even regress
-            disease progression.
+            I worked on a professional practice project during my degree, where
+            I created a multiplayer boxing game for stroke and Parkinson's
+            patients. The game was designed to slow down or even reverse disease
+            progression, based on recent studies showing the benefits of
+            rhythmic movements. The game was built for the Oculus Quest 2 and
+            deployed as a standalone APK that connects to a university-hosted
+            server to track patient data and create bespoke game modes.
           </p>
           <p className='pt-2 px-4'>
-            The game we developed was a single/multiplayer boxing game, designed
-            for play on the Oculus Quest 2. The game was deployed as a
-            standalone apk that connects to a server hosted at the University.
-            This allows patient data to be logged to track progress and enables
-            bespoke game modes to be set up for specific patient needs.
+            The boxing game features multiplayer and single player functionality
+            with an emphasis on maintaining engagement, as well as positional
+            data logging and a static target game mode that can be adjusted by
+            clinicians and coaches through a web interface."
           </p>
-          <p className='py-6 px-4 font-bold'>
-            The boxing game design brief was as follows:
-          </p>
-          <ul className='styled-list'>
-            <li>
-              The game must be a functional multiplayer, with a focus on
-              maintaining engagement over time. We were informed that previous
-              projects had seen success in testing phases, but a significant
-              decrease in participation rates once the trial had finished likely
-              due to the absence of social encouragement.
-            </li>
-            <li>
-              Positional data is to be logged to the database hosted on a sever
-              at the University for later processing.
-            </li>
-            <li>
-              The Game must include a static target game mode. The restrictions
-              for this game mode must be able to be set by the clinician and
-              boxing coach through a web interface
-            </li>
-          </ul>
         </article>
 
         {/* Container */}
