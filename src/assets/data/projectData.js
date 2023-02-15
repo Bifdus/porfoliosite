@@ -8,15 +8,15 @@ export const projectData = [
     link: 'https://github.com/Bifdus/portfolio-site',
     buttontext: 'Github',
   },
-  {
-    id: 2,
-    title: 'Static Website (IN PROGRESS)',
-    text: 'This static website project that I am collaborating on with a client is utilizing NextJS, React and Typescript as its main technologies. The styling is being done using Material-UI v5, providing a sleek and modern look.',
-    image:
-      'https://res.cloudinary.com/dlyygpzwl/image/upload/v1674282092/Website/djelectrics_achuz0.png',
-    link: 'https://snazzy-stardust-17873c.netlify.app/',
-    buttontext: 'View',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Static Website (IN PROGRESS)',
+  //   text: 'This static website project that I am collaborating on with a client is utilizing NextJS, React and Typescript as its main technologies. The styling is being done using Material-UI v5, providing a sleek and modern look.',
+  //   image:
+  //     'https://res.cloudinary.com/dlyygpzwl/image/upload/v1674282092/Website/djelectrics_achuz0.png',
+  //   link: 'https://snazzy-stardust-17873c.netlify.app/',
+  //   buttontext: 'View',
+  // },
   {
     id: 3,
     title: 'Multiplayer Boxing Game',
