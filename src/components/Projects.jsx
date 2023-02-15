@@ -21,19 +21,20 @@ const Projects = () => {
             University Professional Practice Project
           </h2>
           <p className='pb-4 px-4'>
-            I worked on a professional practice project during my degree, where
-            I created a multiplayer boxing game for stroke and Parkinson's
-            patients. The game was designed to slow down or even reverse disease
-            progression, based on recent studies showing the benefits of
-            rhythmic movements. The game was built for the Oculus Quest 2 and
-            deployed as a standalone APK that connects to a university-hosted
-            server to track patient data and create bespoke game modes.
+            I worked on a professional practice team project during my degree,
+            where I played a role in creating a multiplayer boxing game for
+            stroke and Parkinson's patients. The game was designed to slow down
+            or even reverse disease progression, based on recent studies showing
+            the benefits of rhythmic movements. The game was built for the
+            Oculus Quest 2 and deployed as a standalone APK that connects to a
+            university-hosted server to track patient data and create bespoke
+            game modes.
           </p>
           <p className='pt-2 px-4'>
             The boxing game features multiplayer and single player functionality
             with an emphasis on maintaining engagement, as well as positional
             data logging and a static target game mode that can be adjusted by
-            clinicians and coaches through a web interface."
+            clinicians and coaches through a web interface.
           </p>
         </article>
 
